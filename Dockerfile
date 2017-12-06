@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         fakeroot \
         ca-certificates \
         openssh-client \
+        build-essential \
         software-properties-common \
         python-software-properties \
         libvirt-dev \
